@@ -186,8 +186,7 @@ def search(values):
 if __name__ == '__main__':
     # Input sudoku puzzle in string form.
     diag_sudoku_grid = """2.............62....1....7...6..8...3...9...7...
-    6..4...4....8....52.............3""".replace('\n', '')
-
+6..4...4....8....52.............3""".replace('\n', '')
     # Solve and display the solution.
     display(solve(diag_sudoku_grid))
 
